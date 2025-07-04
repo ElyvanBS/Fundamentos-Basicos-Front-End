@@ -6,12 +6,20 @@ h1,h2,ul,li,p,a{margin: 0; padding: 0; color: black; text-decoration: none;}
 
 header{background-color: rgb(21, 21, 21); width: 100%; display: flex; align-items: center; padding: 20px; }
 
+.box-header{display: flex;align-items: center;gap: 20px;}
+
+.box-header > h1,img{color: white;}
+
+.box-header > img{height: 40px;}
+
+/*Navegação da página*/
 nav{background-color: blueviolet; width: 100%; display: flex; align-items: center; padding: 10px 25px;}
 
 nav > ul{display: flex; gap: 35px;}
 
 nav > ul > a > li{list-style-type: none; color: white;}
+/*Navegação da página*/
 
-.box-header{display: flex;align-items: center;gap: 20px;}
-
-.box-header > h1,img{color: white;}
+.bold{
+    font-weight: bold;
+}
