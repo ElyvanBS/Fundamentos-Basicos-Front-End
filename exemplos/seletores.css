@@ -9,7 +9,7 @@ a{color: green;}
 
 a[href="http://www.ufac.br"]{color: blue;}
 
-a,p{text-align: center;}
+h1,p{text-align: center;}
 
 /* Combinações de Seletores */
 /* Elemento com classe */

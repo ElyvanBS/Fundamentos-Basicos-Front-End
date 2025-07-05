@@ -20,6 +20,4 @@ nav > ul{display: flex; gap: 35px;}
 nav > ul > a > li{list-style-type: none; color: white;}
 /*Navegação da página*/
 
-.bold{
-    font-weight: bold;
-}
+.bold{font-weight: bold;}
