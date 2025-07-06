@@ -1,33 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elyvan - Currículo Pessoal</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="assets/images/Logo_Curriculo.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 <body>
 
     <header>
 
-        <div class="box-header"><a href="#"><img src="logo.png" alt="Logo do site"></a>
+        <div class="box-header"><a href="#"><img src="assets/images/Logo_Curriculo.png" alt="Logo do site"></a>
 
-        <h1>Meu Portifólio</h1>
+        <h1>Meu Portifólio - Elyvan</h1>
 
         </div>
 
     </header>
 
     <nav>
+        <div class="nav_superior">
+
         <ul>
             <a href="#" target="#"><li class="bold">Home</li></a>
-            <a href="#" target="#"><li>Quem sou</li></a>
-            <a href="#" target="#"><li>Projetos</li></a>
+            <a href="#quemsou" target="#"><li>Quem sou</li></a>
+            <a href="#container-projects"><li>Projetos</li></a>
+            <a href="https://github.com/ElyvanBS" target="_blank"><i class="ri-github-fill"></i><li>GitHub</li></a>
+            <a href="https://www.linkedin.com/in/elyvanbs/" target="_blank"><i class="ri-linkedin-box-fill"></i><li>LinkedIn</li></a>
         </ul>
+
+        </div>
     </nav>
     
-    <main></main>
+    <main>
 
-    <footer></footer>
+        <div class="container_content">
+            
+            <div class="container-formacao">
+                
+                <h1>Formação Acadêmica</h1>
+
+                <label for="academico-ifac">IFAC</label>
+                <div class="box_formacao">
+                <h2>Ensino Médio Integrado ao Técnico em Informática para Internet</h2>
+                <p>Em curso</p>
+                </div>
+
+                <label for="academico-ufac">UFAC</label>
+                <div class="box_formacao">
+                <h2>Curso WebAcademy - (Desenvolvimento Web)</h2>
+                <p>Em curso</p>
+                </div>
+
+            </div>
+            
+            <div class="container_projects" id="container-projects">
+
+            <div class="box_project" id="vannily">
+
+                <div class="img_project"><img src="assets/images/Vannily.jpg" alt="Imagem do projeto Vannily"></div>
+
+                <div class="content_box_projects">
+                <h2 id="title-vannily">Vannily</h2>
+
+                <p>Projeto Web de Mini-Ecommerce com o tema de uma Livraria estilo GEEK, com vendas de roupas, periféricos. board e card games. Feito na máteria de Práticas em Programação para Web, ministrada pelo Professor Álvaro Rios no Instituto Federal do Acre - IFAC.</p>
+
+                <a href="#"><div class="button-project">Saiba Mais</div></a>
+                </div>
+
+            </div>
+
+            <div class="box_project" id="book-line">
+
+                <div class="img_project"><img src="assets/images/Book-Line.png" alt="Imagem do projeto Book-Line"></div>
+
+                <div class="content_box_projects">
+                <h2 id="title-book-line">Book-Line</h2>
+
+                <p>Projeto Web de Mini-Ecommerce com o tema de Livraria com Cafeteria e Reservas de Espaços, realizado na matéria de Programação para Web ministrada pelo Professor Breno Carrilo e Marlon no Instituto Federal do Acre - IFAC.</p>
+
+                <a href="#"><div class="button-project">Saiba Mais</div></a>
+                </div>
+
+            </div>
+
+            <div class="box_project" id="lock-botic">
+
+                <div class="img_project"><img src="assets/images/Lock-Botic.png" alt="Imagem do projeto Vannily"></div>
+
+                <div class="content_box_projects">
+                <h2 id="title-lock-botic">Lock-Botic</h2>
+
+                <p>Projeto de um APP, com a finalidade de gerenciar armários de robóticas de uma instituição. No WebAcademy (Desenvolvimento Web), na matéria de UX e Design Think, ministrado pelo professor Rodrigo Souza na Universidade Federal do Acre - (UFAC)</p>
+
+                <a href="#"><div class="button-project">Saiba Mais</div></a>
+                </div>
+
+            </div>
+
+            <div class="box_project" id="barber">
+
+                <div class="img_project"><img src="assets/images/Barbearia.png" alt="Imagem do projeto Vannily"></div>
+
+                <div class="content_box_projects">
+                <h2 id="title-barbearia">Barbearia</h2>
+
+                <p>Projeto de uma Livraria estilo GEEK, com vendas de roupas, periféricos. board e card games. Feito na máteria de Práticas em Programação para Web, ministrada pelo Professor Álvaro Rios no Instituto Federal do Acre - IFAC.</p>
+
+                <a href="#"><div class="button-project">Saiba Mais</div></a>
+                </div>
+
+            </div>
+
+            </div>
+
+            <div class="table-informacoes-pessoais" id="quemsou">
+                <h1>Informações de Pessoais</h1>
+                <table>
+
+                    
+                    <thead>
+                        <th>Nome:</th>
+                        <th>Email:</th>
+                        <th>Telefone:</th>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>Elyvan Bernardino da Silva</td>
+                        <td>elyvanbs@gmail.com</td>
+                        <td>(68) 99912-3456</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+            <div class="form-contact">
+
+                <h1>Faça Contato</h1>
+                <form>
+
+                    <div class="box-form-nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" maxlength="100" placeholder="Insira seu Nome:">
+                    </div>
+
+                    <div class="box-form-email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" maxlength="100" placeholder="Insira seu email:">
+                    </div>
+
+                    <div class="box-form-mensagem">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" maxlength="500" placeholder="Digite a sua Mensagem"></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar Mensagem">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="content-footer">
+            <div class="box-nav-footer">
+            <h2>Navegação</h2>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#quemsou"><li>Quem sou</li></a>
+                <a href="#container-projects"><li>Projetos</li></a>
+                <a href="https://github.com/ElyvanBS" class="footer-github"><i class="ri-github-fill"></i><li>GitHub</li></a>
+                <a href="https://www.linkedin.com/in/elyvanbs/" class="footer-linkedin"><i class="ri-linkedin-box-fill"></i><li>LinkedIn</li></a>
+            </ul>
+            </div>
+
+            <div class="box-projects-footer">
+            <h2>Projetos</h2>
+            <ul>
+                <a href="#vannily"><li>Vannily</li></a>
+                <a href="#book-line"><li>Book-Line</li></a>
+                <a href="#lock-botic"><li>Lock-Botic</li></a>
+                <a href="#barber"><li>Barbearia</li></a>
+            </ul>
+            </div>
+
+            <div class="box-contacts-footer">
+            <h2>Contato</h2>
+            <ul>
+                <a href="#"><li>Email: elyvanbs@gmail.com</li></a>
+                <a href="#"><li>Número: +55 (68) 99912-3456</li></a>
+                <a href="https://www.linkedin.com/in/elyvanbs/" target="_blank" class="footer-linkedin"><i class="ri-linkedin-box-fill"></i><li>LinkdIn</li></a>
+                <a href="https://github.com/ElyvanBS" target="_blank" class="footer-github"><i class="ri-github-fill"></i><li>GitHub</li></a>
+            </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="footer-copy"><p>&copy; Copyright - Elyvan Bernardino da Silva - 2025</p></div>
+
 </body>
 </html>
