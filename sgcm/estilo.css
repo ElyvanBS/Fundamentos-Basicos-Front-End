@@ -3,9 +3,9 @@
 body{margin: 0;}
 
 /* cabeçalho */
-div#topo{display: flex;height: 75px; align-items: center; background:linear-gradient(#003366, #006699);color: white; gap: 20px; padding: 10px 25px;}
+div#topo{display: flex;height: 75px; align-items: center; background:linear-gradient(#003366, #006699);color: white;}
 
-div#topo p{font-size: 2em;}
+div#topo p{font-size: 1.4em;}
 
 /* navegação */
 
@@ -36,3 +36,15 @@ form.profissional{display: grid; grid-template-columns: 1fr 1fr; width: fit-cont
 input[type="submit"], .botao_verde{background-color: green; color: white; border: none; border-radius: 4px;padding: 0.2em; text-decoration: none; cursor: pointer;}
 
 input[type="reset"], .botao_vermelho{background-color: red; color: white; border: none; border-radius: 4px;padding: 0.2em; text-decoration: none; cursor: pointer}
+
+/* Rodapé */
+
+footer{background:linear-gradient(#003366, #006699); color: white; padding: 5px;}
+
+/* Responsividade */
+@media screen and (max-width:910px)
+{
+    ul,ul li a{display: block;}
+
+    form.profissional {grid-template-columns: 1fr;}
+}
